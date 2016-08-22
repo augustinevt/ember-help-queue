@@ -1,0 +1,22 @@
+{
+  "tickets" : [
+    {
+      "name_one": "Amos",
+      "name_two": "Amy",
+      "issue": "Cannot spell queue!!",
+      "location": "AD"
+    },
+    {
+      "name_one": "Betty",
+      "name_two": "Barker",
+      "issue": "Cannot spell queue!!",
+      "location": "AD"
+    },
+    {
+      "name_one": "Chen",
+      "name_two": "Charlie",
+      "issue": "Cannot spell queue!!",
+      "location": "AD"
+    }
+  ]
+}

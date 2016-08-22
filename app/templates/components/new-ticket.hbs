@@ -1,0 +1,45 @@
+{{#if debugQ}}
+<div>
+  <h2>Have you gone through all the steps on the Learn How to Program debugging lesson?</h2>
+  <div class="clickbtn">
+    <button class="btn btn-sm clickbtn btn-danger" {{action 'debug'}}>Yes >></button>
+  </div>
+</div>
+{{/if}}
+{{#if askQ}}
+<div>
+  <h2>Have you asked another pair for help?</h2>
+  <div class="clickbtn">
+    <button class="btn btn-sm clickbtn btn-danger" {{action 'ask'}}>Yes >></button>
+  </div>
+</div>
+{{/if}}
+{{#if timeQ}}
+<div>
+  <h2>Have you spent 15 minutes going through through the problem documenting every step?</h2>
+  <div class="clickbtn">
+    <button class="btn btn-sm clickbtn btn-danger" {{action 'time'}}>Yes >></button>
+  </div>
+</div>
+{{/if}}
+{{#if showFormQ}}
+<div>
+  <div class="form-group center">
+    <div class="container center">
+      {{input value=name_one placeholder="Please Enter Name"}}
+    </div>
+    <div class="container center">
+      {{input value=name_two placeholder="Please Enter Name"}}
+    </div>
+    <div class="container center">
+      {{input value=location placeholder="Please Enter Location"}}
+    </div>
+    <div class="container center">
+      {{textarea rows="4" value=issue placeholder="Give a brief description of your issue"}}
+    </div>
+  </div>
+  <div class="clickbtn">
+    <button class="btn btn-sm btn-danger" {{action 'newTicket'}}>Halp!</button>
+  </div>
+</div>
+{{/if}}

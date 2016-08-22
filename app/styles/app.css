@@ -1,0 +1,32 @@
+.nav-bar {
+  height: 50px;
+  background-color: rgb(204, 102, 0);
+}
+
+.queue-head {
+  font-family: monospace;
+  text-align: center;
+  color: white;
+}
+
+#btn-grp {
+  padding: 50px;
+  text-align: center;
+}
+
+body {
+  background-color: #ecf0f1;
+}
+ .center {
+   text-align: center;
+   padding: 15px;
+ }
+
+input, textarea {
+  width: 400px;
+}
+
+.clickbtn {
+  text-align: center;
+  margin: auto;
+}
