@@ -30,3 +30,12 @@ input, textarea {
   text-align: center;
   margin: auto;
 }
+
+.ticket-div {
+  border: solid;
+  padding: 5px;
+}
+
+.inline {
+  display: inline;
+}

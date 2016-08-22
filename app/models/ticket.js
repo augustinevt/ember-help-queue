@@ -5,4 +5,5 @@ export default DS.Model.extend({
   name_two: DS.attr(),
   issue: DS.attr(),
   location: DS.attr(),
+  time: DS.attr()
 });

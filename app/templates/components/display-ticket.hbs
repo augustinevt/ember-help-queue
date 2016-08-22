@@ -1,0 +1,14 @@
+
+<div class="container ticket-div">
+  <div class="name">
+    <h2 class="inline"> {{ticket.location}} </h2>
+    <h4 class="inline">{{timestamp}}</h4>
+    <h2 class="inline"> {{bothNames}} </h2>
+
+  </div>
+  {{#if isAdmin}}
+  <p>
+    {{ticket.issue}}
+  </p>
+  {{/if}}
+</div>

@@ -1,1 +1,6 @@
-{{outlet}}
+admin page
+
+{{#each model as |ticket|}}
+  {{display-ticket ticket=ticket isAdmin=true }}
+  {{edit-ticket ticket=ticket delete="delete"}}
+{{/each}}

@@ -24,8 +24,12 @@ export default Ember.Component.extend({
         name_two: this.get('name_two') ? this.get('name_two') : "",
         issue: this.get('issue'),
         location: this.get('location'),
+        time: +new Date(),
       };
       this.sendAction('newTicket', params);
+    },
+    complete() {
+
     }
   }
 });
